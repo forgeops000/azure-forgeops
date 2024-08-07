@@ -9,7 +9,7 @@ terraform {
       resource_group_name  = "tfstate"
       storage_account_name = "tfstatexmbi4"
       container_name       = "tfstate"
-      key                  = "nonprod/tools/vms-tool/terraform.tfstate"
+      key                  = "nonprod/tools/vnet/terraform.tfstate"
   }
 
 }

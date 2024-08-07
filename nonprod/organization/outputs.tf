@@ -1,5 +1,5 @@
 output "resource_group_name" {
-  value = azurerm_resource_group.nonprod.name
+  value = azurerm_resource_group.nonprod-rg.name
 }
 
 output "location" {
@@ -15,6 +15,6 @@ output "project" {
 }
 
 output "nonprod-forgeops" {
-  value = azurerm_ssh_public_key.nonprod-forgeops.public_key
+  value = azurerm_ssh_public_key.nonprod-forgeops-ssh.public_key
 }
 
