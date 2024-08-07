@@ -1,5 +1,5 @@
 output "resource_group_name" {
-  value = azurerm_resource_group.nonprod-rg.name
+  value = azurerm_resource_group.rg.name
 }
 
 output "location" {
@@ -14,7 +14,10 @@ output "project" {
   value = var.project
 }
 
-output "nonprod-forgeops" {
-  value = azurerm_ssh_public_key.nonprod-forgeops-ssh.public_key
+output "ssh-key" {
+  value = azurerm_ssh_public_key.ssh-key.public_key
 }
 
+output "default_username" {
+  value = var.default_username
+}

@@ -15,3 +15,10 @@ variable "project" {
   type        = string
   default     = "forgeops"
 }
+
+variable "default_username" {
+  description = "default user name"
+  type        = string
+  default     = "azureadmin"
+}
+
