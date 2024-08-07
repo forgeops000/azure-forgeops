@@ -9,3 +9,9 @@ variable "environment" {
   type        = string
   default     = "nonprod"
 }
+
+variable "project" {
+  description = "Project name"
+  type        = string
+  default     = "forgeops"
+}
