@@ -79,7 +79,7 @@ resource "azurerm_linux_virtual_machine" "docker_tool_vm" {
   os_disk {
     name                 = "${local.instance-name}-OsDisk"
     caching              = "ReadWrite"
-    storage_account_type = "Premium_LRS"
+    storage_account_type = "Standard_LRS"
   }
 
   source_image_reference {
